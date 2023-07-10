@@ -1,0 +1,43 @@
+1. Title: Playstore Dataset (with social/entertainment context)
+
+2. Sources
+   https://drive.google.com/file/d/1IqWfWa_TymUkvCXU0_kzjsirPAdiSLpG/view?usp=drive_link
+   
+
+3. Relevant Information:
+	Playstore is the platform for the android mobile users to download the variaous Applications. In the sample of Playstore dataset we have  over 2.4 millions applications of various vcategories. This tabular dataset consists of sample of applications  available on Playstore, along with details such as - category, size, ratings, release year, rating counts, etc
+
+4. Number of Instances: over 2.4 Millions for Google-Playstore.csv
+
+5. Number of Attributes: 24 output attribute.
+
+6. Attribute information:
+
+   Input variables:
+   
+        App Name: The name of the application (string).
+	App Id: The unique identifier for the application (string).
+	Category: The category or type of the application (string).
+	Rating: The average rating of the application (float).
+	Rating Count: The total number of ratings received by the application (float).
+	Installs: The number of times the application has been installed (string).
+	Minimum Installs: The minimum number of installs for the application (float).
+	Maximum Installs: The maximum number of installs for the application (integer).
+	Free: A boolean indicating whether the application is free or not.
+	Price: The price of the application (float).
+	Currency: The currency used for the price of the application (string).
+	Size: The size of the application (string).
+	Minimum Android: The minimum version of Android required to run the application (string).
+	Developer Id: The unique identifier for the application developer (string).
+	Developer Website: The website of the application developer (string).
+	Developer Email: The email address of the application developer (string).
+	Released: The date when the application was released (string).
+	Last Updated: The date when the application was last updated (string).
+	Content Rating: The content rating of the application (string).
+	Privacy Policy: The URL or link to the privacy policy of the application (string).
+	Ad Supported: A boolean indicating whether the application is ad-supported or not.
+	In App Purchases: A boolean indicating whether the application offers in-app purchases or not.
+	Editors Choice: A boolean indicating whether the application is an editor's choice or not.
+	Scraped Time: The date and time when the data was scraped or collected (string).
+
+7. Missing Attribute Values: There are several missing values in some categorical attributes, all coded with the "NAN" label. These missing values can be treated as a possible class label or using deletion or imputation techniques. 
